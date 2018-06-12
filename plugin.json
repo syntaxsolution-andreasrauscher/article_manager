@@ -1,6 +1,6 @@
 {
       "name":"HelloWorld",
-      "description":"My first plugin",
+      "description":"My first plugin2",
       "namespace":"HelloWorld",
       "author":"Andreas Rauscher",
       "type":"template",
