@@ -9,6 +9,6 @@ class TopItemsRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
-        $router->get('topitems', 'TopItems\Controllers\ContentController@showTopItems');
+        $router->get('topitems', 'HelloWorld\Controllers\ContentController@showTopItems');
     }
 }
