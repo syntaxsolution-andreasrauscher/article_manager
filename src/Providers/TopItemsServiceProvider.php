@@ -1,21 +1,12 @@
 <?php
 namespace HelloWorld\Providers;
 
-use Plenty\Plugin\RouteServiceProvider;
-use Plenty\Plugin\Routing\Router;
+use Plenty\Plugin\ServiceProvider;
 
-/**
- * Class HelloWorldRouteServiceProvider
- * @package HelloWorld\Providers
- */
-class TopItemsServiceProvider extends RouteServiceProvider
+class TopItemsServiceProvider extends ServiceProvider
 {
-	/**
-	 * @param Router $router
-	 */
-	public function map(Router $router)
-	{
-		$router->get('hello', 'HelloWorld\Controllers\ContentController@showTopItems');
-	}
-
+    public function register()
+    {
+        $this->getApplication()->register(TopItemsRouteServiceProvider::class);
+    }
 }
