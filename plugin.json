@@ -1,8 +1,14 @@
 {
-      "name":"HelloWorld",
-      "description":"My first plugin2",
-      "namespace":"HelloWorld",
-      "author":"Andreas Rauscher",
-      "type":"template",
-      "serviceProvider":"HelloWorld\\Providers\\TopItemsServiceProvider"
+  "name": "MyFirstView",
+  "description": "My first back end view",
+  "namespace": "MyFirstView",
+  "author": "plentymarkets GmbH",
+  "type": "backend",
+  "serviceProvider": "MyFirstView\\Providers\\MyFirstViewServiceProvider",
+  "version":"0.0.1",
+  "license":"MIT",
+  "keywords":["terra","backend", "first", "view"],
+  "pluginIcon":"icon_plugin_xs.png",
+  "price":0.00,
+  "authorIcon":"icon_author_xs.png"
 }

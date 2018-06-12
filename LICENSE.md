@@ -1,4 +1,4 @@
-plentymarkets plugin hello world
+plentymarkets plugin Backend View
 
 Copyright © 2016 plentymarkets GmbH
 
