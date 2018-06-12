@@ -4,5 +4,5 @@
       "namespace":"HelloWorld",
       "author":"Andreas Rauscher",
       "type":"template",
-      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+      "serviceProvider":"HelloWorld\\Providers\\TopItemsServiceProvider"
 }
